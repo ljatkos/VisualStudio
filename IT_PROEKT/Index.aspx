@@ -6,11 +6,17 @@
 <head runat="server">
     <title></title>
     <link href="css/bootstrap.css" rel="stylesheet" />
+    <style type="text/css">
+  .jumbtron{
+      z-index:-1;
+      filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  }
+  </style>
+
 </head>
 <body>
     <form id="form1" runat="server">
- 
-<div>          
+<div class="container">          
     <nav role="navigation" class="navbar navbar-default">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -20,9 +26,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" rel="home" href="#" title="Buy Sell Rent Everyting">
+        <a class="navbar-brand" rel="home" href="Index.aspx" title="Buy Sell Rent Everyting">
         <img style="max-width:130px; margin-top: -17px;"
-             src="logo.png">
+             src="logo.png"/>
         </a>
      <!--   <a href="#" class="navbar-brand">Apartments</a> -->
     </div>
@@ -39,12 +45,27 @@
         </ul>
     </div>
 </nav>
-</div>      
+   
+    
+   
+        <div class="jumbotron container-fluid" style="background-image:url(ohrid.jpg); background-size:100%;">
+            
+            <div class="container">
+        
+            <div class="col-md-6 col-md-offset-3 centerfy" style="text-align:left">
 
-    <div class="jumbotron" style="color: black">
+                <h1 class="">Добредојовте на</h1>
+                <div class="">
+                    <img  src="logo.png" class="img-responsive text-center" />
+                </div>
+                <h2 class="" style="color:white">веб страната!</h2>
+            </div>
+        </div>
+           
+        </div>
+    
 
-    </div>
-
+     </div>
     </form>
 </body>
 </html>
