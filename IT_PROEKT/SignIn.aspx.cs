@@ -13,5 +13,10 @@ namespace IT_PROEKT
         {
 
         }
+
+        protected void tbUsername_TextChanged(object sender, EventArgs e)
+        {
+            tbUsername.ForeColor = System.Drawing.Color.Black;
+        }
     }
 }
