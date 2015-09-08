@@ -31,7 +31,7 @@
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
+            <li><a href="#">Messages1</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Sing Up</a></li>
