@@ -40,21 +40,25 @@
             <li><a href="#">Messages1</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Sing Up</a></li>
-            <li><a href="#">Sing In</a></li>
+            <button type="button" class="btn btn-default navbar-btn btn-success"><b>Sign Up</b></button>
+            <button type="button" class="btn btn-default navbar-btn"><b>Sign In</b></button>
+            <!-- # kako sakate ovde dali so button dali so li
+            <li class="btn-success"><a href="#" style="color:white"><b>Sign Up</b></a></li>
+            <li class="btn-default"><a href="#"><b>Sign In</b></a></li>
+            -->
         </ul>
     </div>
 </nav>
    
     
    
-        <div class="jumbotron container-fluid" style="background-image:url(ohrid.jpg); background-size:100%;">
+        <div class="jumbotron container-fluid" style="background-image:url(ohrid.jpg); background-size:100%; flood-opacity:.5">
             
-            <div class="container">
+            
         
             <div class="col-md-6 col-md-offset-3 centerfy" style="text-align:left">
 
-                <h1 class="">Добредојовте на</h1>
+                <h1 class="" style="text-align:left">Добредојовте на</h1>
                 <div class="">
                     <img  src="logo.png" class="img-responsive text-center" />
                 </div>
@@ -62,7 +66,6 @@
             </div>
         </div>
            
-        </div>
     
 
      </div>
